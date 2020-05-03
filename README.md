@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# bookingapp
+
+"bookingapp" is an  app for booking a friend's store
+
+##  Features
+
+It is an application to introduce online reservation to a friend's bone clinic.
+Used by friends who are owners to check the reservation status of the store.
+
+Confirmation of reservation status.
+If you make a reservation, the frame will be filled.
+
+You will need to enter the information required to make the reservation.
