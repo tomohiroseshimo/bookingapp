@@ -1,22 +1,22 @@
 = form_for @event do |f|
   - if @event.errors.any?
     #error_explanation
-      %h2= "#{pluralize(@event.errors.count, "error")} prohibited this event from being saved:"
+      %h2= "#{pluralize(@event.errors.count, "つのエラー")} がある為登録できませんでした。"
       %ul
         - @event.errors.full_messages.each do |message|
           %li= message
 
   .field
-    = f.label :title
+    = f.label :title, "本名（必須）"
     = f.text_field :title
   .field
-    = f.label :start_date
-    = f.datetime_select :start_date
+    = f.label :start_date, "開始時間"
+    = f.datetime_select :start_date, minute_step: 30
   .field
-    = f.label :end_date
-    = f.datetime_select :end_date
+    = f.label :end_date, "終了時間"
+    = f.datetime_select :end_date, minute_step: 30
   .field
-    = f.label :description
+    = f.label :description, "備考"
     = f.text_area :description
   .actions
-    = f.submit 'Save'
+    = f.submit '予約する'

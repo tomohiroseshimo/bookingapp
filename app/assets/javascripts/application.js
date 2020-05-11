@@ -59,7 +59,8 @@ $(function () {
                   week: '週',
                   day: '日'
               },
-
+            // イベントを重複させない
+              eventOverlap: false,
             // デフォルトで表示させるテーブル
               defaultView: 'agendaWeek',
             // Drag & Drop & Resize
@@ -70,6 +71,7 @@ $(function () {
               eventColor: '#87cefa',
             // イベントの文字色
               eventTextColor: '#000000',
+            
               eventRender: function(event, element) {
                   element.css("font-size", "0.8em");
                   element.css("padding", "5px");
