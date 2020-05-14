@@ -58,7 +58,9 @@ Please be sure to delete the registered reservation after trying this "bookingap
 URL：　https://bookingapp-nakagawa.herokuapp.com/events
 
 ## DEMO
-　準備中
+
+予約ページ　https://gyazo.com/cfe0a9d99a24b6aab137367d7a2bea5f
+予約登録フォーム  https://gyazo.com/0ab7cd74ebf00337c74fec2562acae36
 
 ## 実装予定の内容
 
