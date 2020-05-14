@@ -59,6 +59,14 @@ $(function () {
                   week: '週',
                   day: '日'
               },
+              
+              googleCalendarApiKey: 'AIzaSyDFwPFRIsN7aADppoJgUekHhYEliTNKcrU',
+              eventSources: [
+                {
+                googleCalendarId: 'ja.japanese#holiday@group.v.calendar.google.com',
+                }
+              ],
+
             // イベントを重複させない
               eventOverlap: false,
             // デフォルトで表示させるテーブル
@@ -71,6 +79,8 @@ $(function () {
               eventColor: '#87cefa',
             // イベントの文字色
               eventTextColor: '#000000',
+
+              
             
               eventRender: function(event, element) {
                   element.css("font-size", "0.8em");

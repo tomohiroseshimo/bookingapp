@@ -1,3 +1,4 @@
+%script{src: "gcal.min.js"}
 %h1 予約票
 
 %table
@@ -18,9 +19,9 @@
         %td= event.start_date
         %td= event.end_date
         %td= event.description
-        %td= link_to '確認', event
-        %td= link_to '修正', edit_event_path(event)
-        %td= link_to '削除', event, method: :delete, data: { confirm: '予約を削除してよろしいですか?' }
+        %td= link_to '予約の確認', event
+        %td= link_to '予約の修正', edit_event_path(event)
+        %td= link_to '予約の削除', event, method: :delete, data: { confirm: '予約を削除してよろしいですか?' }
 
 %br
 

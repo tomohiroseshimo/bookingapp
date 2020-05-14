@@ -1,3 +1,11 @@
+%h3 
+  ※毎週（木）（日）は休診日となります。
+  %br>/
+  ※土曜日は午前のみの診療となります。
+  %br>/
+  ※12:00~15:00の間はお昼休みとなります。
+
+
 = form_for @event do |f|
   - if @event.errors.any?
     #error_explanation
@@ -16,7 +24,7 @@
     = f.label :end_date, "終了時間"
     = f.datetime_select :end_date, minute_step: 30
   .field
-    = f.label :description, "備考"
+    = f.label :description, "備考　(何かお伝えしたい事があればご自由に記入してください)"
     = f.text_area :description
   .actions
     = f.submit '予約する'
