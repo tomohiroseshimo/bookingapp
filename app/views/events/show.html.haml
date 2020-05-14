@@ -1,0 +1,19 @@
+%h1 ご予約の確認
+%p#notice= notice
+
+%p
+  %b お名前:
+  = @event.title
+%p
+  %b 開始時間:
+  = @event.start_date
+%p
+  %b 終了時間:
+  = @event.end_date
+%p
+  %b 備考:
+  = @event.description
+
+= link_to '修正ページ', edit_event_path(@event)
+\|
+= link_to '戻る', events_path
