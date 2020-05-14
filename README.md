@@ -54,9 +54,12 @@ Please be sure to delete the registered reservation after trying this "bookingap
 友人が去年接骨院を開業し、のちに予約制を導入しました。<br>
 予約をする方法が電話しかなく、ネットでの予約が出来ると一人で接骨院を経営している友人の助けになる為開発しました。<br>
 
+## 本番環境
+URL：　https://bookingapp-nakagawa.herokuapp.com/events
+
 ## DEMO
 　準備中
- 
+
 ## 実装予定の内容
 
 ・ユーザー登録機能 <br>
