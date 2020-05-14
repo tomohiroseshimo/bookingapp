@@ -59,10 +59,8 @@ URL：　https://bookingapp-nakagawa.herokuapp.com/events
 
 ## DEMO
 
-予約ページ　![0ab7cd74ebf00337c74fec2562acae36](https://user-images.githubusercontent.com/53069435/81917074-ada26b80-960f-11ea-96dc-95451a4432d7.png)
-<br>
-予約登録フォーム  ![cfe0a9d99a24b6aab137367d7a2bea5f](https://user-images.githubusercontent.com/53069435/81917177-d0348480-960f-11ea-8035-95a3adb11964.png)
-
+予約登録フォーム  <img scr="https://user-images.githubusercontent.com/53069435/81917177-d0348480-960f-11ea-8035-95a3adb11964.png" width=320px height=500px><br>
+予約ページ　<img scr="https://user-images.githubusercontent.com/53069435/81917074-ada26b80-960f-11ea-96dc-95451a4432d7.png" width=320px>
 
 ## 実装予定の内容
 
