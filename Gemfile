@@ -67,6 +67,7 @@ gem 'jquery-rails'
 gem 'fullcalendar-rails'
 gem 'momentjs-rails'
 gem 'rails-i18n'
+gem 'devise'
 
 group :production do
   gem 'pg'
