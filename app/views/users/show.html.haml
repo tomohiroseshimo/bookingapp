@@ -1,6 +1,17 @@
-%h1 Users#show
+%h1 ユーザーマイページ
 %p Find me in app/views/users/show.html.haml
 %hr/
 %p
-  %span email:
+  %span 名前:
+  = @user.name
+  %br>/
+  %span 住所:
+  = @user.address
+  %br>/
+  %span 電話番号:
+  = @user.tellnumber
+  %br>/
+  %span メールアドレス:
   = @user.email
+= link_to "プロフィールの編集", edit_user_registration_path, class: 'post'
+= link_to "戻る", :back
