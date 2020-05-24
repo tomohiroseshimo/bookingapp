@@ -3,8 +3,11 @@
 - @users.each do |user|
   %hr/
   %p
+  - if user_signed_in? && user.id == current_user.id
     %span 名前:
-    = link_to user.name, user_path(user.id)
+    = user.name
     %span email:
-    = link_to user.email
+    = user.email
+    %span 
+    = link_to "ユーザー編集", user_path(current_user.id)
 = link_to "戻る", :back
