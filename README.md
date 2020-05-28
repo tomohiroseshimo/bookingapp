@@ -56,17 +56,29 @@ Please be sure to delete the registered reservation after trying this "bookingap
 
 ## 本番環境
 URL：　https://bookingapp-nakagawa.herokuapp.com/events
+テストアカウント
+テスト太郎
+メールアドレス：　ooarai@ggmail.com
+パスワード：　Zxcvbn2
 
 ## DEMO
 
 予約ページ  (https://user-images.githubusercontent.com/53069435/81917177-d0348480-960f-11ea-8035-95a3adb11964.png)<br>
 予約登録フォーム　(https://user-images.githubusercontent.com/53069435/81919329-acbf0900-9612-11ea-9095-f26986d0d651.png)
 
-## 実装予定の内容
+## 開発環境
 
-・ユーザー登録機能 <br>
-・ユーザーが自身の予約のみ登録、修正、削除が行なえるようにする機能<br>
-・管理者機能
+・rails: 5.2.4
+・ruby: 2.5.1
+・DB: mysql
+
+## 今度実装したい点
+
+cssを適用し、viewデザインを整える。
+
+## 工夫した点
+
+友人が使いやすい様、またある程度利用者年齢が高い事も予想される為なるべくページ数、フォーム数やボタンなどを減らすことで必要最低限に留めた点。
 
 ## DB設計
 
